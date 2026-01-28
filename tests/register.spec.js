@@ -56,7 +56,7 @@ test('CT-FE-002: Validação de Senhas Não Correspondentes', async ({ page }) =
   await page.getByRole('button', { name: 'Adicionar Livro' }).click();
   
   
-  await expect(page).toHaveURL("http://localhost:3000/dashboard.html");
+  await expect(page).toHaveURL("http://localhost:3000/livros.html");
 
   
  
